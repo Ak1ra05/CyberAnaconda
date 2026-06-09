@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/catalog.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Cyberpunk_catalog</title>
+  </head>
+  <body>
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+          <img src="src/images/hero_bg.svg" alt="" width="1920" height="1000" />
+        </div>
+
+        <header class="header">
+          <div class="header__inner container">
+            <a
+              href="index.html"
+              class="header__logo"
+              aria-label="Кибер-Анаконда — на главную"
+            >
+              <img
+                src="src/images/logo.svg"
+                alt="Кибер-Анаконда"
+                width="237"
+                height="42"
+              />
+            </a>
+
+            <input
+              type="checkbox"
+              id="nav-toggle"
+              class="header__toggle-input"
+              aria-hidden="true"
+            />
+            <label
+              for="nav-toggle"
+              class="header__burger"
+              aria-label="Открыть меню"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+
+            <nav class="header__nav" aria-label="Основная навигация">
+              <ul class="header__menu">
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="index.html#anketa">Анкета</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+              </ul>
+              <a class="header__phone" href="tel:+79999992077"
+                >+7 (999) 999 20 77</a
+              >
+            </nav>
+
+            <a href="#" class="header__cart" aria-label="Корзина">
+              <img
+                src="src/images/korzina_pokupok_naz14yju3xcx%201.svg"
+                alt=""
+                width="28"
+                height="28"
+              />
+            </a>
+          </div>
+        </header>
+
+        <div class="hero__content container">
+          <div class="hero__cta clip-corner">
+            <h1 class="hero__title">
+              Самый большой выбор киберимплантов в&nbsp;Найтсити
+            </h1>
+            <a href="index.html#about" class="btn btn--yellow">узнать больше</a>
+          </div>
+        </div>
+      </section>
+    <section id="catalog" class="catalog-section">
+      <div class="catalog-container">
+        <h1 class="catalog-title">КАТАЛОГ</h1>
+
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">
+            Все импланты
+          </button>
+          <button class="filter-btn" data-filter="нейроинтерфейс">
+            Нейроинтерфейс
+          </button>
+          <button class="filter-btn" data-filter="биоаугментации">
+            Биоаугментации
+          </button>
+          <button class="filter-btn" data-filter="аксессуары">
+            Аксессуары
+          </button>
+        </div>
+
+        <div class="catalog-grid">
+          <article class="card" data-implant="нейроинтерфейс">
+            <div class="img_implant">
+              <img src="src/images/Neurolink N1.png" alt="" />
+            </div>
+            <h2>NeuroLink N1</h2>
+            <h3 class="highlight">нейроинтерфейс</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Базовый интерфейс подключения к
+                  <span class="highlight">цифровым устройствам</span></span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Скорость передачи данных:
+                  <span class="highlight">10 Гбит/с</span></span
+                >
+                <span class="state_text"
+                  >• Снижение задержки сигналов:
+                  <span class="highlight">-35%</span></span
+                >
+                <span class="state_text"
+                  >• Энергопотребление:
+                  <span class="highlight">12 Вт</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">14 900 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="нейроинтерфейс">
+            <div class="img_implant">
+              <img src="src/images/Synapse Boost.png" alt="" />
+            </div>
+            <h2>Synapse Boost</h2>
+            <h3 class="highlight">нейроинтерфейс</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Увеличение скорости обработки информации</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Ускорение реакции:
+                  <span class="highlight">+45%</span></span
+                >
+                <span class="state_text"
+                  >• Скорость обработки данных:
+                  <span class="highlight"> +38%</span></span
+                >
+                <span class="state_text"
+                  >• Время отклика: <span class="highlight">0,08 мс</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">22 500 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="нейроинтерфейс">
+            <div class="img_implant">
+              <img src="src/images/GhostWire.png" alt="" />
+            </div>
+            <h2>GhostWire</h2>
+            <h3 class="highlight">нейроинтерфейс</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Увеличение скорости обработки информации</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Радиус подключения
+                  <span class="highlight">500 м</span></span
+                >
+                <span class="state_text"
+                  >• Скорость беспроводного канала
+                  <span class="highlight">40 Гбит/с</span></span
+                >
+                <span class="state_text"
+                  >• Защита соединения
+                  <span class="highlight">256-битное шифрование</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">29 900 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="биоаугментации">
+            <div class="img_implant">
+              <img src="src/images/MuscleFiber+.png" alt="" />
+            </div>
+            <h2>MuscleFiber+</h2>
+            <h3 class="highlight">биоаугментации</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Усиление мышечной силы на<span class="highlight">
+                    35%</span
+                  ></span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Увеличение силы мышц:
+                  <span class="highlight">+35%</span></span
+                >
+                <span class="state_text"
+                  >• Выносливость: <span class="highlight">+28%</span></span
+                >
+                <span class="state_text"
+                  >• Допустимая нагрузка: до<span class="highlight">
+                    450 кг</span
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">15 500 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="биоаугментации">
+            <div class="img_implant">
+              <img src="src/images/CardioCore V2.png" alt="" />
+            </div>
+            <h2>CardioCore V2</h2>
+            <h3 class="highlight">биоаугментации</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Улучшенная работа сердечно-сосудистой системы</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Производство кровотока:<span class="highlight">
+                    +40%</span
+                  ></span
+                >
+                <span class="state_text"
+                  >• Снижение утомляемости:
+                  <span class="highlight"> -32%</span></span
+                >
+                <span class="state_text"
+                  >• Ресурс работы: <span class="highlight"> 25 лет</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">14 900 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="биоаугментации">
+            <div class="img_implant">
+              <img src="src/images/Eagle Vision.png" alt="" />
+            </div>
+            <h2>Eagle Vision</h2>
+            <h3 class="highlight">биоаугментации</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Базовый интерфейс подключения к цифровым устройствам</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Оптическое увеличение:<span class="highlight">
+                    ×20</span
+                  ></span
+                >
+                <span class="state_text"
+                  >• Дальность распознования:
+                  <span class="highlight"> 2 км</span></span
+                >
+                <span class="state_text"
+                  >• Ночное зрение:
+                  <span class="highlight"> +100% эффективности</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">27 000 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="аксессуары">
+            <div class="img_implant">
+              <img src="src/images/DataChip 512.png" alt="" />
+            </div>
+            <h2>DataChip 512</h2>
+            <h3 class="highlight">Аксессуары</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Базовый интерфейс подключения к цифровым устройствам</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Объем памяти:<span class="highlight"> 512 ТБ</span></span
+                >
+                <span class="state_text"
+                  >• Скорость чтения:
+                  <span class="highlight"> 18 ГБ/с</span></span
+                >
+                <span class="state_text"
+                  >• Защита данных: <span class="highlight"> 99.99%</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">3 900 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="аксессуары">
+            <div class="img_implant">
+              <img src="src/images/NeuroDock.png" alt="" />
+            </div>
+            <h2>NeuroDock</h2>
+            <h3 class="highlight">Аксессуары</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Станция диагностики и настройки имплантов</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Диагностика имплантов:<span class="highlight">
+                    5 сек</span
+                  ></span
+                >
+                <span class="state_text"
+                  >• Подерживаемых устройств :
+                  <span class="highlight"> до 128</span></span
+                >
+                <span class="state_text"
+                  >• Точность анализа:
+                  <span class="highlight"> 99.8%</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">7 500 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+
+          <article class="card" data-implant="аксессуары">
+            <div class="img_implant">
+              <img src="src/images/Signal Booster.png" alt="" />
+            </div>
+            <h2>Signal Booster</h2>
+            <h3 class="highlight">Аксессуары</h3>
+
+            <div class="text_cards">
+              <div class="atribyt">
+                <span class="state_text"
+                  >Уселитель сигнала нейроинтерфейса</span
+                >
+              </div>
+              <div class="discription">
+                <span class="state_text"
+                  >• Усиление сигнала:<span class="highlight">
+                    +250%</span
+                  ></span
+                >
+                <span class="state_text"
+                  >• Радиус действия:
+                  <span class="highlight"> +125 м</span></span
+                >
+                <span class="state_text"
+                  >• Энергопотребление:
+                  <span class="highlight"> 5 Вт</span></span
+                >
+              </div>
+            </div>
+            <div class="card-footer">
+              <h2 class="price">6 900 CR</h2>
+              <button class="card_button">В КОРЗИНУ</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   <footer class="footer">
+      <section class="contacts" id="contacts">
+        <div class="contacts__inner">
+          <div class="contacts__image">
+            <img
+              src="src/images/contacts_image.svg"
+              alt="Киберимпланты на столе"
+              width="968"
+              height="717"
+            />
+          </div>
+          <div class="contacts__info">
+            <img
+              class="contacts__logo-bg"
+              src="src/images/contacts_logo.svg"
+              alt=""
+              width="532"
+              height="639"
+              aria-hidden="true"
+            />
+            <div class="contacts__content">
+              <div class="contacts__text">
+                <h2 class="section-title section-title--light">
+                  Наши контакты
+                </h2>
+                <p class="contacts__detail">
+                  НОМЕР ТЕЛЕФОНА: +7 (999) 999 20 77
+                </p>
+                <p class="contacts__detail">
+                  АДРЕС: Г. Город, Переулок Переулок, Дом Дома, Офис Офиса
+                </p>
+              </div>
+              <div class="contacts__bottom">
+                <div class="contacts__socials">
+                  <a href="#" class="contacts__social" aria-label="ВКонтакте">
+                    <img
+                      src="src/images/vk_logo.svg"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </a>
+                  <a href="#" class="contacts__social" aria-label="Telegram">
+                    <img
+                      src="src/images/tg_logo.svg"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </a>
+                </div>
+                <p class="contacts__slogan">
+                  Кибер-Анаконда — сила будущего в каждом импланте.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer__inner container">
+        <p class="footer__copy">&copy; Shizoidi 2026</p>
+        <img
+          class="footer__decor"
+          src="src/images/grfn_logo.svg"
+          alt=""
+          width="27"
+          height="17"
+          aria-hidden="true"
+        />
+      </div>
+    </footer>
+    <!-- Я ЗАЕБАЛСЯ -->
+    <script src="/js/catalog.js"></script>
+  </body>
+</html>
